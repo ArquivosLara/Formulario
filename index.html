@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="Ie=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Documento</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cadastro de Alunas</h1>
+        </header>
+        <article>
+            <!--Iniciando Formulario: Primeiros passos-->
+            <form action="./Untitled-1.html" method="POST">
+                <label for="Bnome">Nome da Aluna</label>
+                <input type="text" size="30" id="Bnome"
+                required="required"/>
+
+                <br>
+                <br>
+
+                <label for="Bnota"> Nota da Aluna</label>
+                <input type="text" size="30" id="Bnota" 
+                required="required">
+                <br>
+                <br>
+
+                <label for="Bano">Ano Escolar</label>
+                <input type="text" size="30" id="Bano"
+                required="required">
+                 
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+
+                <!--Bloco de Seleção-->
+                <h3>Escolha sua Cidade</h3>
+                <input type="radio" name="tipo" id="sampa" value="C">
+                <label for="sampa">São Paulo</label>
+                <br>
+                
+                <input type="radio" name="tipo" id="ma" value="C">
+                <label for="cid">Maua</label>
+                <br>
+
+                
+                <input type="radio" name="tipo" id="san" value="C">
+                <label for="cid">Santo Andre</label>
+                <br>
+
+                <!--Bloco de selação checkbox-->
+                <h3>Música</h3>
+
+                <input type="checkbox" name="tipo" id="bts" value="C">
+                <label for="bts">BTS</label>
+                <br>
+                
+                <input type="checkbox" name="tipo" id="Ex" value="C">
+                <label for="Ex">Exalta Samba</label>
+                <br>
+
+                
+                <input type="checkbox" name="tipo" id="mat" value="C">
+                <label for="mat">Matuê</label>
+                <br>
+                <br>
+                 <!--Elemento select (lista sespensa)-->
+                 <h3>Escxolha sua comida favorita</h3>
+                
+                <select name="comida" id="comida">
+                    <option value="Fejoada">Fejoada</option>
+                    <option value="strogonof">strogonof</option>
+                    <option value="Sushi">Sushi</option>
+                    <option value="Lasanha">Lasanha</option>
+                    <option value="creme">Creme de Leite</option>
+                    <option value="Maionese">Maionese</option>
+                </select>
+
+                  <!--Elemento datalist (lista suspensa)-->
+                  <h3>Escolha sua comida favorita</h3>
+
+                 <input type="browsers">
+                <datalist id="browsers" size="250 ">
+                    <option value="Chrome">
+                    <option value="Firefox">
+                    <option value="internet explorer">
+                    <option value="opara">
+                    <option value="safari">
+                    
+                </datalist>
+
+                <br>
+                         
+                <!--Elemetos datalist (lista suspensa)-->
+                <h3>Escolha seu browsers preferido </h3>
+                 
+                <fieldset>
+                    <legend>Escolha seu browsers preferido</legend>
+                <input list="browsers" />
+                   <datalist id="browsers">
+                       <option value="Chrome">
+                       <option value="Firefox">
+                       <option value="internet explorer">
+                       <option value="opara">
+                       <option value="safari">
+                    
+                 </datalist>
+                </fieldset>
+
+                 <!--Iniciando textarea-->
+                 <h3>critique alguma série</h3>
+                 <textarea name="critica" id="critics" cols="60" rows="10"></textarea>
+
+                 <br>
+                 <br>
+
+                
+            </form>
+        </article>
+        <footer>
+            <small>Copyright <sub>&copy;</sub> - Todos os Direitos Reservados</small>
+        </footer>
+    </body>
+
+</html>
